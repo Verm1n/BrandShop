@@ -1,0 +1,33 @@
+<!DOCTYPE HTML5>
+<html lang="ru">
+  <head>
+    <link href="st.scss" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Second</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
+  </head>
+    <body>
+      <p>1</p>
+        text
+        <div class='test'><button onload="swapImage"></button></div>
+        
+        <script>
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "image_1.gif"; 
+path[1] = "image_2.gif"; 
+path[2] = "image_3.gif"; 
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",3000); 
+} 
+window.onload=swapImage; 
+        </script>
+    </body>
+  </html>
