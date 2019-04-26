@@ -1,0 +1,872 @@
+html { overflow-x:  hidden; }
+
+.nav-bar, .nav-bar--top, .nav-bar--bottom, .elements, .__logo, .banner, .bestOfArea,
+ .kyrie__text, .arrivals__text, .products, .testimonials, .author, .testimonials__authors,
+ .testimonials__more, .news, .news__elements, .feedback, .feedback__elements, .page-footer, .usp,
+ .footer__rectangle, .navigation, .footer__end {
+    margin:auto;
+    font-size: 100%;
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: 126px;
+    background-color: #623232;
+}
+
+.nav-bar--top{
+    display: flex;
+  
+    height: 50px;
+    background-color: #472424;    
+}
+
+.nav-bar--bottom{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding-top:10px;
+}
+
+.__logo{
+    padding-left:130px;
+}
+
+.elements {
+    display:flex;
+    align-items: center;
+    list-style:none;
+    font-size: 13px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+}
+
+.elements li{
+    width:90px;
+    margin-left:10px;
+    margin-right:10px;
+    flex-grow: 1; 
+    text-align:center;
+    cursor :pointer;
+
+}
+
+.__menu{
+    font-size:16px;
+}
+
+.elements li:hover{
+    color:#ff7373;
+    border-bottom:2px solid #ff7373;
+}
+
+.elements li:active{
+background-image: url(image/active_icon.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+border-radius: 5% 5%;
+cursor: pointer;
+color:white;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-color: #f0efee;
+    display:flex;  
+}
+
+.banner__logo{
+    position:relative;
+    bottom:42px;
+}
+
+.banner__info{
+    padding-left:90px;
+    padding-top:125px;
+}
+
+.info__price{
+    font-size: 30px;
+    color: #623232;
+    font-family: "TruenoRegular";
+}
+
+.info__name{
+    font-size: 70px;
+    color: #623232;
+    font-family: "TruenoBold";
+}
+
+.info__variants{
+    font-size: 50px;
+    color: #ff7373;
+    font-family: "TruenoBold";
+}
+
+.info__more{
+    margin-top:30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8a8784;
+    font-family: "TruenoRegular";
+    width:400px;
+}
+
+.info__browse{
+    text-transform: uppercase ;
+    margin-top:40px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoBold";
+    width: 255px;
+    height: 48px;
+    background-color: #ff7373;
+    border:none;
+}
+
+.bestOfArea{
+    width:1150px;
+    height:540px;
+}
+
+.bestOf {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top:-360px;
+    justify-content: center;
+    padding-left:10px;
+    padding-right:10px
+}
+
+.kyrie {
+    flex-basis: 540px;
+    height: 540px;
+    background-color: #000000;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+    text-align: center;
+    background-image:url(image/cross.png) ;
+}
+
+.kyrie__text{
+    width:250px;
+    padding-top:40px;
+}
+
+.kyrie__text span{
+    color:#4bd8cd;
+}
+
+.kyrie__logo{
+    max-width: 32px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    background:url(s.png) no-repeat;
+}
+
+.kyrie__view{
+    width: 211px;
+    height: 48px;
+    background-color: #4bd8cd;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    font-family: "TruenoBold";
+    margin-top:335px;
+    border:none;
+}
+
+.arrivals{
+    flex-basis: 540px;
+    height: 255px;
+    background-color: #ff7373;
+    text-align: center;
+    margin-left:30px;
+}
+
+.arrivals__text{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+    text-align: center;
+    width:245px;
+    padding-top:55px;
+    padding-left:100px;
+}
+
+.arrivals__logo{
+    position: relative;
+    width:200px;
+    left:580px;
+    top:23px 
+}
+
+.arrivals__text span {
+    font-family: "TruenoBold"
+}
+
+.arrivals__view {
+    width: 145px;
+    height: 48px;
+    background-color: #623232;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoBold";
+    border:none;
+    margin-top:30px;
+    margin-left:100px;
+}
+
+.athletics {
+    flex-basis: 255px;
+    height: 255px;
+    background-color: #2d2f2e;
+    text-align: center;
+    background-image:url(image/sneak.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-left:570px;
+    margin-top:-255px;
+}
+
+.athletics__text{
+    padding-top:145px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+    text-align: center;
+}
+
+.athletics__text span{
+    color:#ff7373;
+    font-family: 'TruenoBold'
+}
+
+.premium{
+    flex-basis: 255px;
+    height: 255px;
+    background-color: #cecece;
+    text-align: center;
+    margin-top:-255px;
+    margin-left:30px;
+}
+
+.premium__text{
+    font-family: "TruenoRegular";
+    font-size: 30px;
+    color: #6b7072;
+    text-align: center;
+    text-shadow:  0 0 30px rgba(0,0,0,0.2);
+    padding-top:35px;
+}
+
+.premium__text span {
+    font-family: 'TruenoBold';
+    color: #ffffff;
+}
+
+.premium__shoes{
+    position: relative;
+    left:895px;
+    top:185px;
+}
+
+.products__menu {
+    padding-top:50px;
+}
+
+.products__menu--list{
+    padding-top:50px;
+    display:flex;
+    list-style:none;
+    font-size: 30px;
+    color: #d4d4d4;
+    font-family: "TruenoBold";
+    justify-content: center;
+}
+
+.products__menu--list li{
+    padding-left:10px;
+    padding-right:10px
+}
+
+.goods{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width:1210px;
+}
+
+.goods__element{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:25px;
+    width:255px;
+    height: 350px;
+    border:1px solid #e0dfde;
+}
+
+.element__content{
+    display:flex;
+    flex-direction: column;
+    margin-left:25px;
+    margin-top:25px;
+}
+
+.content__img{
+    background-image:url(image/image.png);
+    background-repeat: no-repeat;
+    width:255px;
+    height:120px;
+    align-self: center;   
+}
+
+.content__price{
+    font-size: 24px;
+    line-height: 26px;
+    color: #8a8784;
+    font-family: "TruenoRegular";
+    height: 55px;
+}
+
+.content__price--super{
+    color: #ff7373;
+}
+
+.content__price--super s{
+    font-size:16px;
+    color: #8a8784;
+}
+
+.content__price--super span{
+    width:160px;
+    background: #ff7373;
+    color:white;
+    font-size:24px;
+    margin-left:80px;
+}
+
+.procent{
+    background:#ff7373;
+    color:white;
+    position: relative;
+    left:150px;
+    font-size:20px;
+}
+
+.content__info {
+    font-size: 16px;
+    line-height: 26px;
+    color: #8a8784;
+    font-family: "TruenoRegular";
+    height: 120px;
+    width:170px;  
+    border-bottom:1px solid black;
+}
+
+.content__id{
+    font-size: 14px;
+    line-height: 26px;
+    color: #cecece;
+    font-family: "TruenoRegular";  
+}
+
+.brands{
+    display:flex;
+    justify-content: center;
+    margin-top:90px;
+    margin-bottom:90px;
+}
+
+.brands__element{
+    width:160px;
+    height:100px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.brand-1{
+    background-image: url(image/adidas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.brand-2{
+    background-image: url(image/adidas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.brand-3{
+    background-image: url(image/adidas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.brand-4{
+    background-image: url(image/adidas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.brand-5{
+    background-image: url(image/adidas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.brand-6{
+    background-image: url(image/adidas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonials{
+    text-align:center;
+    height:570px;
+    width:100%;
+    background-color: #472424;
+    background-image:url(image/hand1.png);
+    background-repeat:no-repeat; 
+    background-position: center;
+}
+
+.author {
+    opacity: 0.6;
+}
+
+.author--active{
+    opacity: 1;
+}
+
+.testimonials__authors{
+    padding-top:95px;
+    display:flex;
+    width:520px;
+}
+
+.author__photo img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.author__rating{
+    display:flex;
+    justify-content: center;
+}
+
+.author__name{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoBold";
+    text-align: center;
+}
+
+.star{
+    margin-left:2px;
+    width: 20px;
+    height: 19px;
+    background-image: url(image/star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.star--empty{
+    background-image: url(image/starempty.png);
+}
+
+.testimonials__more{
+    padding-top:25px;
+}
+
+.review{
+    background-image:url(image/area1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.text{
+    width: 900px;
+    height: 170px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+    text-align: center;
+}
+
+.news{
+    width: 1680px;
+    height:625px;
+}
+
+.news__title{
+    padding-top:100px;
+    font-size: 30px;
+    color: #623232;
+    font-family: "TruenoBold";
+    text-align:center;
+}
+
+.news__elements{
+    padding-top:50px;
+    width:1110px;
+    height:350px;
+    display:flex;
+    justify-content: center;
+}
+
+.news__element{
+    margin-left:10px;
+    margin-right:10px;
+    width:350px;
+    height:335px;
+    border: 1px solid #e0dfde;
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.news__date, .news__info{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoBold";
+}
+
+.news__info, .news__comment{
+    font-family: 'TruenoRegular';
+} 
+
+.news__comment{
+    color:#ff7373;
+    display:flex;
+    margin-top:5px;
+}
+
+.news__image--1{
+    opacity:0.3;
+}
+
+.news__element--element1{
+    background-image:url(image/boots.png);
+}
+
+.news__element--element2{
+    background-image:url(image/running.png);
+}
+
+.news__element--element3{
+    background-image:url(image/manyboots.png);
+}
+
+.news__text{
+    margin-left:30px;
+    margin-top:200px;
+}
+
+.feedback{
+    background-color:#ff7373;
+    width:100%;
+    height:200px;
+}
+
+.feedback__elements{
+    width:1110px;
+    height:200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.feedback__element{
+    display:flex;
+    align-items: center;
+}
+
+.feedback__text h2{
+    font-size: 30px;
+    font-family: "TruenoBold";
+}
+
+.feedback__text{
+    margin-left:30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+}
+
+.feedback__button button{
+    width: 211px;
+    height: 48px;
+    background-color: #623232;
+    border:none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoBold";
+}
+
+.page-footer{
+    width: 100%;
+    height: 731px;
+    background-color: #623232;
+}
+
+.usp{
+    width: 1100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.usp__element{
+    margin-top:50px;
+    padding-top:50px;
+    width: 160px;
+    height: 160px;
+    background-repeat:no-repeat;
+    background-position: top;
+    font-size: 14px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+    text-align: center;
+}
+
+.usp__element--1{
+    background-image:url(image/ship.png);
+}
+
+.usp__element--2{
+    background-image:url(image/moneyback.png);
+}
+
+.usp__element--3{
+    background-image:url(image/call.png);
+}
+
+.usp__element--4{
+    background-image:url(image/dollar.png);
+}
+
+.usp__element--5{
+    background-image:url(image/present.png);
+}
+
+.usp__element--6{
+    background-image:url(image/car.png);
+}
+
+.usp__element:not(:nth-child(1)){
+    margin-left:30px;
+}
+
+.footer__rectangle{
+    width: 1110px;
+    height: 1px;
+    background-color: #fdcccc;
+}
+
+.navigation{
+    display: flex;
+    width:1110px;
+    height: 400px;
+    justify-content: space-between;
+    padding-top:30px;
+}
+
+.nav__list{
+    width:155px;
+    list-style: none;
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+}
+
+.nav__list li:first-child{
+    color:#ff7373;
+    font-family: "TruenoBold";
+}
+
+.navigation__nav{
+   
+    justify-content: center;
+}
+
+.call, .email, .address {
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "TruenoRegular";
+    list-style:none;
+    width:255px;
+}
+
+.call li:first-child, .email li:first-child, .address li:first-child{
+    color: #ff7373;
+    font-family:'TruenoBold';
+}
+
+.navigation__contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigation__menu{
+    display:flex;
+    align-items:flex-start;
+    padding-top:70px
+}
+
+.call__img{
+    float: left;
+    position: relative;
+    right:40px;
+    background-image: url(image/phone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:55px;
+    height:55px;
+    background-color:#ff7373;
+}
+
+.email__img{
+    float: left;
+    position: relative;
+    right:40px;
+    background-image: url(image/messadge.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:55px;
+    height:55px;
+    background-color:#ff7373;
+}
+
+.address__img{
+    float: left;
+    position: relative;
+    right:40px;
+    background-image: url(image/addres.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:55px;
+    height:55px;
+    background-color:#ff7373;
+}
+
+.footer__end{
+    padding-top:50px;
+    display:flex;
+    justify-content: space-between;
+    width:1110px;
+    height:40px;
+    align-items: flex-end;
+}
+
+.end__logo{
+    background-image:url(image/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:40px;
+    width:190px;
+}
+
+.end__privacy{
+    font-size: 16px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "TruenoRegular";
+}
+
+.end__social{
+    display:flex;
+    width:160px;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    background-repeat: no-repeat;
+    background-position: center;
+    width:26px;
+    height:26px;
+}
+
+.social__twitter{
+    background-image: url(image/social_1.png);
+}
+
+.social__facebook{
+    background-image:url(image/social_2.png);
+}
+
+.social__periscope{
+    background-image: url(image/social_3.png);
+}
+
+.social__youtube{
+    background-image:url(image/social_4.png);
+}
+
+button:hover{
+    box-shadow: 1px 1px 5px 1px #d4d4d4;
+}
+
+button:active{
+    border:1px solid white;
+    font-size: 15px;
+}
+
+.products__menu--list li:hover{
+    color:#623232;
+    cursor: pointer;
+}
+
+.content__img:hover{
+    transform: scale(1.1);
+}
+
+.news__comment:hover, .call:hover, .email:hover, .address:hover{
+    transform:scale(1.010);
+    filter: brightness(1.25);
+    cursor: pointer;
+}
+
+.kyrie:hover, .arrivals:hover, .athletics:hover, .premium:hover{
+    box-shadow: 0px 0px 5px 2px #623232;
+}
+
+.nav__list li:not(first-child):hover{
+    transform:scale(1.025);
+    filter: brightness(1.25);
+    cursor: pointer;
+}
+
+.news__element:hover{
+    box-shadow: 0px 0px 5px 3px #e0dfde;
+}
+
+.swal-button{
+    background-color:#fb7e7e;
+}
+
+.swal-text{
+    font-family: 'TruenoBold';
+    font-size:16px;
+}

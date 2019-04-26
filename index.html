@@ -1,0 +1,423 @@
+<!DOCTYPE HTML5>
+<html lang="ru">
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Second</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+      
+        
+
+    
+      <header class='page-header'>
+
+          <nav class='nav-bar'>
+            <div class='nav-bar--top'>
+                <ul class='elements __about'>
+                    <li>Support</li>
+                    <li>Delivery</li>
+                    <li>Legal</li>
+                    <li>About us</li>
+                </ul>
+
+                <ul class='elements __register'>
+                    <li class='__register--price' style="width: 105px;">$465.00 4 Items</li>
+                    <li>Login</li>
+                    <li>Register</li>
+                </ul>
+            </div>
+
+            <div class='nav-bar--bottom'>
+                <div class='__logo'><img src='image/logo.png'></div>
+                <ul class='elements __menu'>
+                    <li>Home</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Children</li>
+                    <li>Baby</li>
+                    <li>Our Brands</li>
+                    <li>Sales</li>
+                </ul>
+            </div>
+          </nav>
+      </header>
+
+      <div class='main'>
+          <div class='banner'>
+              <div class='banner__logo'><img src='image/nike.png'></div>
+              <div class='banner__info'>
+                  <div class='info__price'>From $80.00</div>
+                  <div class='info__name'>Nike Air Max</div>
+                  <div class='info__variants'>50 Variants</div>
+                  <div class='info__more'>Since this is our favorite sneaker, we're bringing you 50 variants to suite everyone's needs.</div>
+                  <button class='info__browse' onclick="go()">browse variants</button>
+              </div>
+          </div>
+          <div class='bestOfArea'>
+
+           <div class='arrivals__logo'><img src='image/ked.png'></div>
+           <div class='premium__shoes'>
+                <img src='image/left.png'>
+                <img src='image/right.png'>
+            </div>
+
+            <div class='bestOf'>
+                <div class='kyrie'>
+                    <div class='kyrie__text'>Discover the new <span>NIKE KYRIE</span></div>
+                    <button class='kyrie__view' onclick="go()">VIEW COLLECTION</button>
+                </div>
+                <div class='arrivals'>
+                    <div class='arrivals__text'>Check out the <span>NEW ARRIVALS</span></div>
+                    <button class='arrivals__view' onclick="go()">DISCOVER</button>
+                </div>
+                <div class='athletics'>
+                    <div class='athletics__text'>Best for <span>ATHLETES</span></div>
+                </div>
+                <div class='premium'>
+                    <div class='premium__text'>Feel <br><span>PREMIUM</span></div>
+                </div>
+            </div>
+
+          </div>
+          
+            <div class='products'>
+              <div class='products__menu'>
+                  <ul class='products__menu--list'>
+                      <li>NEW</li>
+                      <li>POPULAR</li>
+                      <li>TOP PICKS</li>
+                  </ul>
+              </div>
+
+              <div class='products goods'>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price content__price--super'>
+                                $45.00<br>
+                                <s>$60.00</s>
+                            </div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>MEN</strong><br>
+                                Converse Breakpoint Suecle Blue
+                                <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price' id='price_1'>$55.00</div>
+                            <div class='content__img' id='img_1'></div>
+                            <div class='content__info'>
+                                <strong>MEN / WOMEN</strong><br>
+                                Converse Ct Alt Star 1
+                                <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>    
+                        <button onclick="nextPage()">повысь</button>
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price content__price--super'>
+                                $60.00<br>
+                                <s>$80.00</s>
+                            </div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>WOMEN</strong><br>
+                                Adidas Pure Boost Chill
+                                <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price'>$50.00</div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>MEN</strong><br>
+                                Puma Duplex W Casual       
+                                <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price'>$90.00</div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>MEN</strong><br>
+                                Adidas Alphabounce 1M
+                                <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>    
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price content__price--super'>
+                                $50.00<br>
+                                <s>$100.00</s>
+                            </div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>MEN</strong><br>
+                                Asics GEL-Epirus
+                                <div class='content__id'>#16378271</div>
+                            </div>    
+                        </div>
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price'>$40.00</div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>MEN</strong><br>
+                                Adidas Originals Countvantage Mesh
+                                <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class='goods__element'>
+                        <div class='element__content'>
+                            <div class='content__price'>$80.00</div>
+                            <div class='content__img'></div>
+                            <div class='content__info'>
+                                <strong>MEN</strong><br>
+                                Adidas Originals Climacool 1
+                            <div class='content__id'>#16378271</div>
+                            </div>
+                        </div>    
+                  </div>
+
+              </div>
+
+              <div class='products brands'>
+                  <div class='brands__element brand-1'></div>
+                  <div class='brands__element brand-2'></div>
+                  <div class='brands__element brand-3'></div>
+                  <div class='brands__element brand-4'></div>
+                  <div class='brands__element brand-5'></div>
+                  <div class='brands__element brand-6'></div>
+              </div>
+            </div>
+
+            <div class='testimonials'>
+                <div class='testimonials__authors'>
+                    <div class='author'>
+                        <div class=' author__photo'><img src='image/photo.png'></div>
+                        <div class=' author__name'>Andrew Ferraccioli</div>
+                        <div class=' author__rating'>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star star--empty'></div>
+                        </div>
+                    </div>
+
+                    <div class='author author--active'>
+                        <div class='author__photo'><img src='image/photo.png'></div>
+                        <div class='author__name'>Andrew Ferraccioli</div>
+                        <div class='author__rating'>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star star--empty'></div>
+                        </div>
+                    </div>
+
+                    <div class='author'>
+                        <div class='author__photo'><img src='image/photo.png'></div>
+                        <div class='author__name'>Andrew Ferraccioli</div>
+                        <div class='author__rating'>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star'></div>
+                            <div class='star star--empty'></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class='testimonials__more'>
+                    <div class='testimonials__more review'>
+                        <div class='testimonials__more text'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis mostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident. suntin culpa qui officia deserunt mollit anim id est labourum
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='news'>
+                <div class='news__title'>LATEST NEWS</div>
+                <div class='news__elements'>
+                    <div class='news__element news__element--element1'>
+                      <div class='news__text'>
+                        <div class='news__date'>DEC 27, 2017</div>
+                        <div class='news__info'>Lorem ipsum dolor sit amet consecteur adipiscing elit</div>
+                        <div class='news__comment'><img src='image/messages.png' style="padding-right: 5px">24 Comments</div>
+                      </div>
+                    </div>
+
+                    <div class='news__element news__element--element2'>
+                      <div class='news__text'>
+                        <div class='news__date'>DEC 27, 2017</div>
+                        <div class='news__info'>Lorem ipsum dolor sit amet consecteur adipiscing elit</div>
+                        <div class='news__comment'><img src='image/messages.png' style="padding-right: 5px">24 Comments</div>
+                      </div>
+                    </div>
+
+                    <div class='news__element news__element--element3'>
+                      <div class='news__text'>
+                        <div class='news__date'>DEC 27, 2017</div>
+                        <div class='news__info'>Lorem ipsum dolor sit amet consecteur adipiscing elit</div>
+                        <div class='news__comment'><img src='image/messages.png' style="padding-right: 5px">24 Comments</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='feedback'>
+                <div class='feedback__elements'>
+                        <div class='feedback__element'>
+                        <img src='image/mail.png' class='feedback__image'>
+                    
+                        <div class='feedback__text'><h2>LOOKING FOR HELP?</h2>Have any questions or need help with order?Let us know</div>
+                    </div>
+                    <div class='feedback__button' onclick="go()"><button>MAKE AN INQUIRY</button></div>
+                </div>
+            </div>
+        </div>
+            <footer class='page-footer'>
+                <div class='usp'>
+                    <div class='usp__element usp__element--1'>
+                        Free Shipping in Europe
+                    </div>
+
+                    <div class='usp__element usp__element--2'>
+                        Money Back Guaranted
+                    </div>
+
+                    <div class='usp__element usp__element--3'>
+                        24/7 Customer Support
+                    </div>
+
+                    <div class='usp__element usp__element--4'>
+                        Lowest Prices Guaranted
+                    </div>
+
+                    <div class='usp__element usp__element--5'>
+                        Exclusive Items for Sportshold
+                    </div>
+
+                    <div class='usp__element usp__element--6'>
+                        5-Day Delivery in Europe
+                    </div>
+                </div>
+
+                <div class='footer__rectangle'></div>
+
+                <div class='navigation'>
+                    <div class='navigation__contact'>
+                        <ul class='call'>
+                                
+                            <li><div class='call__img'></div>CALL US</li>
+                            <li>O (1234) 567 890</li>
+                        </ul>
+                        <ul class='email'>
+                                
+                            <li><div class='email__img'></div>EMAIL US</li>
+                            <li>hello@sportshold.com</li>
+                        </ul>
+                        <ul class='address'>
+                                
+                            <li><div class='address__img'></div>ADDRESS</li>
+                            <li>40 Baria Street 133/2, NY, US</li>
+                        </ul>
+                    </div>
+
+                    <div class='navigation__menu'>
+                        <div class='navigation__nav'>
+                            <ul class='nav__list'>
+                                <li>NAVIGATION</li>
+                                <li>Home</li>    
+                                <li>About us</li>
+                                <li>Latest News</li>
+                                <li>Reviews</li>
+                                <li>Brands</li>    
+                            </ul>
+                        </div>
+
+                        <div class='navigation__categories'>
+                            <ul class='nav__list'>
+                                <li>CATEGORIES</li>
+                                <li>Men</li>
+                                <li>Women</li>
+                                <li>Children</li>
+                                <li>Baby</li>
+                                <li>Accesssories</li>
+                            </ul>
+                        </div>
+
+                        <div class='navigation__sales'>
+                            <ul class='nav__list'>
+                                <li>SALES</li>
+                                <li>New Arrivals</li>
+                                <li>Most Popular</li>
+                                <li>Top Picks</li>
+                                <li>Outlet</li>
+                            </ul>
+                        </div>
+
+                        <div class='navigation__support'>
+                            <ul class='nav__list'>
+                                <li>SUPPORT</li>
+                                <li>Shipping & Delivery</li>
+                                <li>Return Policy</li>
+                                <li>Terms of Service</li>
+                                <li>Privacy Policy</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            <div class='footer__rectangle'></div>
+                <div class='footer__end'>
+                    <div class='end__logo'></div>
+                    <div class='end__privacy'>&#169 2019 Sportshold. All rights reserved.</div>
+                    <div class='end__social'>
+                        <div class='social social__twitter'></div>
+                        <div class='social social__facebook'></div>
+                        <div class='social social__periscope'></div>
+                        <div class='social social__youtube'></div>
+                    </div>
+                </div>
+            </footer>
+
+            <script>
+                function go(){
+                  swal("Вы нажали на кнопку, но она пока не реализована");
+                }    
+                    var nextPage = function(){
+                    document.getElementById('price_1').innerHTML = '$200.00'
+                }
+            </script>
+  </body>
+</html>
